@@ -1,3 +1,5 @@
+#Find the largest palindrome made from the product of two 3-digit numbers.
+
 def isPalindrome(n):
     s = str(n)
     if s == s[::-1]:
