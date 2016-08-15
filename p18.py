@@ -39,7 +39,8 @@ def main(filename):
 
 	return solve(lines, len(lines)-2)
 
-main("p018_triangle.txt")
+if __name__ == "__main__":
+	print main("p018_triangle.txt")
 
 
 
